@@ -1,6 +1,5 @@
 # hockeystats
 
-Overview
 This project is a data analysis project involving hockey player data from pick224.com. The dataset contains information for multiple years and will be analyzed using the pandas library in Python. The objective of this portfolio project is to demonstrate data analysis skills using Python and pandas.
 
 Dataset
