@@ -2,7 +2,7 @@ import pandas as pd
 
 players = pd.read_csv(r"YOURCSVLOCATION\QMJHLData.csv")
 
-# Print shape of players
+# Print shape of QMJHLData
 print(players.shape)
 
 # Check for duplicates
