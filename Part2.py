@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Conver the CSV into a DataFrame for analysis
 players = pd.read_csv(r"YOURCSVLOCATION\QMJHLData.csv")
 
 # Define a custom sorting order for 'DY/+'
