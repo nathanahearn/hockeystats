@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Conver the CSV into a DataFrame for analysis
-players = pd.read_csv(r"YOURCSVLOCATION\QMJHLData.csv")
+players = pd.read_csv(r"YOURCSVLOCATION\YOURCSV.csv")
 
 # Define a custom sorting order for 'DY/+'
 custom_sort_order = ['DY-2', 'DY-1', 'DY', 'DY+1', 'DY+2', 'DY+3']
