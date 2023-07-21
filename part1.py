@@ -6,7 +6,7 @@ players = pd.read_csv(r"YOURCSVLOCATION\QMJHLData.csv")
 print(players.shape)
 
 # Check for duplicates
-print(players.dropduplicates().shape)
+print(players.drop_duplicates().shape)
 
 # Print player count by year
 print(players["SEASON"].value_counts().sort_values(ascending=False))
@@ -19,4 +19,5 @@ season_counts = players_no_dash_draft_team["SEASON"].value_counts().sort_index(a
 
 print(season_counts)
 
+print(players.describe())
 
