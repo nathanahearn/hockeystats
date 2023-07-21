@@ -1,6 +1,6 @@
 import pandas as pd
 
-players = pd.read_csv(r"YOURCSVLOCATION\QMJHLData.csv")
+players = pd.read_csv(r"YOURCSVLOCATION\YOURCSV.csv")
 
 # Print shape of QMJHLData
 print(players.shape)
