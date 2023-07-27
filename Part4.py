@@ -81,3 +81,10 @@ plt.show()
 # Step 11: Print the statistics for evaluating the model's effectiveness
 print("Mean Squared Error (MSE):", model.mse_model)
 print("Root Mean Squared Error (RMSE):", model.mse_resid ** 0.5)
+
+# Step 12: Calculate Variance Inflation Factor (VIF) for each predictor variable
+vif_data = independent_vars.copy()
+vif_data.drop(columns=['const'], inplace=True)  # Drop the constant column
+vif = pd.DataFrame()
+vif["Features"] = vif_data.columns
+vif["VIF"] = [variance_inflation_factor(vif_data.values, i) for i in range(vif_data.shape[1])]
