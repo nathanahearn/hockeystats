@@ -1,4 +1,4 @@
-# Hockey Player Data Analysis Project
+# Intro to Hockey Player Data Analysis Project
 
 ## Overview
 This project is a data analysis project involving hockey player data from pick224.com. The dataset contains information for multiple years and will be analyzed using multiple python libraries.  The objective of this portfolio project is to demonstrate data analysis skills using these libraries.
