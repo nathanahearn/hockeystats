@@ -69,3 +69,15 @@ plt.xlabel('Actual DY+1 PPG')
 plt.ylabel('Predicted DY+1 PPG')
 plt.title('Actual vs Predicted DY+1 PPG')
 plt.show()
+
+# Step 10: Create a Fitted vs. Residuals Plot
+plt.scatter(model.predict(), model.resid, alpha=0.5)
+plt.axhline(0, color='red', linestyle='dashed')
+plt.xlabel('Fitted Values')
+plt.ylabel('Residuals')
+plt.title('Fitted vs. Residuals Plot')
+plt.show()
+
+# Step 11: Print the statistics for evaluating the model's effectiveness
+print("Mean Squared Error (MSE):", model.mse_model)
+print("Root Mean Squared Error (RMSE):", model.mse_resid ** 0.5)
