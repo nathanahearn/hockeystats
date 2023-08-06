@@ -10,6 +10,7 @@ The following Python libraries were utilized in this project:
 - **Statsmodels**: Statsmodels is a Python library that provides classes and functions for the estimation of many different statistical models, as well as conducting statistical tests, and statistical data exploration.
 - **Matplotlib**: Matplotlib is a widely-used plotting library in Python that provides various tools for creating static, interactive, and animated visualizations in Python.
 - **Seaborn**: Seaborn is a data visualization library based on Matplotlib that provides a high-level interface for creating attractive and informative statistical graphics. It simplifies the process of creating visually appealing plots and supports various statistical plots like heatmaps, distribution plots, regression plots, and more.
+- **Scikit-learn**: Scikit-learn is a comprehensive machine learning library in Python. It provides efficient implementations of various machine learning algorithms, tools for data preprocessing, model evaluation, and more.
 
 ## GitHub Repository
 This project's code and dataset are available in my GitHub repository [here](https://github.com/nathanahearn/hockeystats). Feel free to explore the code. If you're new to GitHub, you can learn how to clone or download the repository, contribute, or open issues by referring to GitHub's [Getting Started Guide](https://docs.github.com/en/get-started).
