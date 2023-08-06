@@ -19,7 +19,7 @@ If you have any questions or suggestions, please don't hesitate to reach out.
 
 Happy analyzing!
 
-## Overview
+## To Do
 Future goals to include a site or dashboard through Power BI or Tableau.
 
 <img src="https://github.com/nathanahearn/hockeystats/assets/31374612/51641f78-898d-4415-a5a0-85dfdc460300" width="50%" alt="Fitted vs. Residuals Plot">
