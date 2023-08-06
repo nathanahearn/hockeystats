@@ -34,3 +34,5 @@ print("Gradient Boosting Regressor Metrics:")
 print("Mean Squared Error (MSE):", mse_gb)
 print("Root Mean Squared Error (RMSE):", rmse_gb)
 print("Mean Absolute Error (MAE):", mae_gb)
+
+# In this scenario, the results from the Gradient Boost did not outperform the previous regression model.
