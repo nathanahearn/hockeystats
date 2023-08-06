@@ -51,6 +51,12 @@ independent_vars = sm.add_constant(independent_vars)
 # Step 6: Fit the Multiple Linear Regression Model
 model = sm.OLS(dependent_var, independent_vars).fit()
 
+# Convert all columns in independent_vars to numeric data type
+independent_vars = independent_vars.apply(pd.to_numeric, errors='coerce')
+
+# Convert 'DY+1 PPG' column to numeric
+dependent_var = pd.to_numeric(dependent_var)
+
 # Step 7: Add a new column for "Projected DY+1 PPG" based on the regression model
 player_data_df['Projected DY+1 PPG'] = model.predict(independent_vars)
 
